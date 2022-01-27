@@ -33,7 +33,7 @@
   </node>
 
   <node name="blank_motor_config_node" pkg="blank_motor_config_node" type="blank_motor_config_node" clear_params="true" output="screen">
-    <param name="motor_ids" value="10 9 7" />
+    <param name="motor_ids" value="10 9 7 13 14" />
   </node>
 
 <?ignore

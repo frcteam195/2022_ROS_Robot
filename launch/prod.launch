@@ -32,6 +32,10 @@
   <node name="field_element_publisher_node" pkg="field_element_publisher_node" type="field_element_publisher_node" clear_params="true" output="screen">
   </node>
 
+  <node name="blank_motor_config_node" pkg="blank_motor_config_node" type="blank_motor_config_node" clear_params="true" output="screen">
+    <param name="motor_ids" value="10 9 7" />
+  </node>
+
 <?ignore
   <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen">
   </node>

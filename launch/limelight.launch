@@ -1,0 +1,6 @@
+<launch>
+  <node name="limelight_vision_node" pkg="limelight_vision_node" type="limelight_vision_node" clear_params="true" output="screen" respawn="true">
+    <!--Enter comma separated list of limelight names-->
+    <rosparam param="limelight_names">[limelight]</rosparam>
+  </node>
+</launch>

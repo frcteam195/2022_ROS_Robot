@@ -36,6 +36,18 @@
     <rosparam command="load" file="/mnt/working/2020_ROS_Robot/params/blank_motor_config_node.yaml" />
   </node>
 
+
+
+  <!--Remove this for real run-->
+  <node pkg="tf" type="static_transform_publisher" name="turret_link" args="0 0 1 0 0 1.57 base_link turret_link 10" respawn="true" />
+  <!--Meters/Radians XYZRPY-->
+  <!--Must have one for every limelight with proper names-->
+  <node pkg="tf" type="static_transform_publisher" name="limelight_link" args="0.3 0.4 0.2 0 -0.4 0 turret_link limelight_link 10" respawn="true" />
+  <node name="limelight_vision_node" pkg="limelight_vision_node" type="limelight_vision_node" clear_params="true" output="screen" respawn="true">
+    <!--Enter comma separated list of limelight names-->
+    <rosparam param="limelight_names">[limelight]</rosparam>
+  </node>
+
 <?ignore
   <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen">
   </node>

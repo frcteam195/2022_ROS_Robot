@@ -40,6 +40,7 @@
     <rosparam param="dev">/dev/input/js1</rosparam>
     <rosparam param="autorepeat_rate">50</rosparam>
     <rosparam param="default_trig_val">true</rosparam>
+  </node>
 
   <!--Remove this for real run-->
   <node pkg="tf" type="static_transform_publisher" name="turret_link" args="0 0 1 0 0 1.57 base_link turret_link 10" respawn="true" />

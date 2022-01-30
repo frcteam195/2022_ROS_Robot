@@ -13,4 +13,9 @@ git@github.com:frcteam195/field_element_publisher_node.git
 git@github.com:frcteam195/turret_node.git
 git@github.com:frcteam195/intake_node.git
 git@github.com:frcteam195/blank_motor_config_node.git
+<<<<<<< HEAD
 git@github.com:frcteam195/2022_light_sim_rio_control_node.git
+=======
+git@github.com:frcteam195/network_tables_node.git
+git@github.com:frcteam195/limelight_vision_node.git
+>>>>>>> 7f2535784101d5ce860f58220c5c2f9645e5f2ac

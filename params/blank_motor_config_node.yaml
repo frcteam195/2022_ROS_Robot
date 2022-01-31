@@ -1,1 +1,1 @@
-motor_ids: [10, 9, 7]   #Normally left_follower_ids: [2, 3]
+motor_ids: [10, 9, 7, 8, 12, 13, 14]   #Normally left_follower_ids: [2, 3]

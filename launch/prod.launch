@@ -8,7 +8,6 @@
     <rosparam command="load" file="/mnt/working/2020_ROS_Robot/params/drivetrain_node.yaml" />
   </node>
   <node pkg="tf" type="static_transform_publisher" name="map_identity" args="0 0 0 0 0 0 odom map 100" respawn="true" />
-  <node pkg="tf" type="static_transform_publisher" name="auto_identity" args="0 0 0 0 0 0 auto_1_red_link base_link 100" respawn="true" />
   <node name="ukf_se" pkg="robot_localization" type="ukf_localization_node" clear_params="true" output="screen" respawn="true">
     <rosparam command="load" file="/mnt/working/2020_ROS_Robot/params/robot_localization_ukf.yaml" />
   </node>
@@ -26,8 +25,10 @@
   <node name="dashboard_interface_node" pkg="dashboard_interface_node" type="dashboard_interface_node" clear_params="true" output="screen" respawn="true">
   </node>
 
+<?ignore
   <node name="turret_node" pkg="turret_node" type="turret_node" clear_params="true" output="screen" respawn="true">
   </node>
+?>
 
   <node name="field_element_publisher_node" pkg="field_element_publisher_node" type="field_element_publisher_node" clear_params="true" output="screen" respawn="true">
   </node>

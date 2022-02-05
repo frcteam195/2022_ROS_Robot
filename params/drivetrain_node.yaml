@@ -17,8 +17,8 @@ voltage_comp_enabled: true    #Voltage compensation enabled
 brake_mode_default: false
 
 gear_ratio_motor_to_output_shaft: 1
-wheel_diameter_inches: 4
-robot_track_width_inches: 15
+wheel_diameter_inches: 5
+robot_track_width_inches: 25
 robot_linear_inertia: 68  #Linear inertia = Weight in kg
 robot_angular_inertia: 125  #kg m^2
 robot_angular_drag: 0.1  #N*m / (rad/sec)

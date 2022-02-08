@@ -25,10 +25,8 @@
   <node name="dashboard_interface_node" pkg="dashboard_interface_node" type="dashboard_interface_node" clear_params="true" output="screen" respawn="true">
   </node>
 
-<?ignore
   <node name="turret_node" pkg="turret_node" type="turret_node" clear_params="true" output="screen" respawn="true">
   </node>
-?>
 
   <node name="field_element_publisher_node" pkg="field_element_publisher_node" type="field_element_publisher_node" clear_params="true" output="screen" respawn="true">
   </node>
@@ -53,10 +51,8 @@
   <node name="blank_limelight_node" pkg="blank_limelight_node" type="blank_limelight_node" clear_params="true" output="screen" respawn="true" >
   </node>
 
-<?ignore
   <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen" respawn="true">
   </node>
-?>
 
 <?ignore
   <include file="/mnt/working/2020_ROS_Robot/launch/rs_aligned_depth.launch">

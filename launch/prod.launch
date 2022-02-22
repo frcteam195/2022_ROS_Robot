@@ -42,6 +42,7 @@
   <node name="limelight_vision_node" pkg="limelight_vision_node" type="limelight_vision_node" clear_params="true" output="screen" respawn="true">
     <!--Enter comma separated list of limelight names-->
     <rosparam param="limelight_names">[limelight]</rosparam>
+    <rosparam param="enable_publish_position_data">true</rosparam>
   </node>
 
   <node name="network_tables_node" pkg="network_tables_node" type="network_tables_node" clear_params="true" output="screen" respawn="true">

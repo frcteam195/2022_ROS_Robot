@@ -1,12 +1,12 @@
 gear_ratio_to_output_shaft: [
   # Motor 1
-  7.44047619048,
+  7.41699219,
   # Motor 2
   1.0,
   # Motor 3
   1.0,
   # Motor 4
-  7.44047619048,
+  7.41699219,
   # Motor 5
   1.0,
   # Motor 6

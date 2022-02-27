@@ -18,3 +18,4 @@ git@github.com:frcteam195/network_tables_node.git
 git@github.com:frcteam195/limelight_vision_node.git
 git@github.com:frcteam195/blank_limelight_node.git
 git@github.com:frcteam195/hmi_agent_node.git
+git@github.com:frcteam195/climber_node.git

@@ -13,19 +13,19 @@ gear_ratio_to_output_shaft: [
   1.0,
   # Motor 7
   1.0,
-  # Motor 8 (Turret Yaw 5:1 Gearbox -> 153:32)
-  23.906,
+  # Motor 8 
+  1.0,
   # Motor 9
   1.0,
   # Motor 10
   1.0,
   # Motor 11
   1.0,
-  # Motor 12 (Turret Hood 40:1 Gearbox -> 353:30 Gearing)
-  470.66,
-  # Motor 13 (Turret Shooter Master Direct Drive)
+  # Motor 12 
   1.0,
-  # Motor 14 (Turret Shooter Slave Direct Drive)
+  # Motor 13 
+  1.0,
+  # Motor 14 
   1.0,
   # Motor 15
   1.0,
@@ -34,7 +34,7 @@ gear_ratio_to_output_shaft: [
   # Motor 17
   1.0,
   # Motor 18
-  1.0,
+  15.357142857,
   # Motor 19
   1.0,
   # Motor 20

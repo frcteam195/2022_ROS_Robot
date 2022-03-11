@@ -1,43 +1,43 @@
 gear_ratio_to_output_shaft: [
-  # Motor 1
+  # Motor 1 Drive
   7.41699219,
-  # Motor 2
-  1.0,
-  # Motor 3
-  1.0,
-  # Motor 4
+  # Motor 2 Drive
   7.41699219,
-  # Motor 5
+  # Motor 3 Drive
+  7.41699219,
+  # Motor 4 Drive
+  7.41699219,
+  # Motor 5 Drive
+  7.41699219,
+  # Motor 6 Drive
+  7.41699219,
+  # Motor 7 Front Roller
   1.0,
-  # Motor 6
+  # Motor 8 Back Roller
   1.0,
-  # Motor 7
+  # Motor 9 Front Belt
   1.0,
-  # Motor 8 
+  # Motor 10 Back Belt
   1.0,
-  # Motor 9
+  # Motor 11 Uptake
   1.0,
-  # Motor 10
+  # Motor 12  Climber
+  20,
+  # Motor 13 Climber
+  20,
+  # Motor 14 Climber
+  20,
+  # Motor 15 Climber
+  20,
+  # Motor 16 Shooter
   1.0,
-  # Motor 11
+  # Motor 17 Shooter
   1.0,
-  # Motor 12 
-  1.0,
-  # Motor 13 
-  1.0,
-  # Motor 14 
-  1.0,
-  # Motor 15
-  1.0,
-  # Motor 16
-  1.0,
-  # Motor 17
-  1.0,
-  # Motor 18
+  # Motor 18 turret yaw
   15.357142857,
-  # Motor 19
+  # Motor 19 turret hood
   41.4285714286,
-  # Motor 20
+  # Motor 20 N/A
   1.0,
 ]
 

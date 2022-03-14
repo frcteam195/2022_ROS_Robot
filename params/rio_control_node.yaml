@@ -1,5 +1,5 @@
 gear_ratio_to_output_shaft: [
-  # Motor 1 Drive
+  # Motor 1 Drive 
   7.41699219,
   # Motor 2 Drive
   7.41699219,
@@ -33,9 +33,9 @@ gear_ratio_to_output_shaft: [
   1.0,
   # Motor 17 Shooter
   1.0,
-  # Motor 18 turret yaw
-  15.357142857,
-  # Motor 19 turret hood
+  # Motor 18 turret yaw - 215/18
+  11.9444444444,
+  # Motor 19 turret hood  580/14
   41.4285714286,
   # Motor 20 N/A
   1.0,

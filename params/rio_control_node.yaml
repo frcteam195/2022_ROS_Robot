@@ -21,14 +21,14 @@ gear_ratio_to_output_shaft: [
   1.0,
   # Motor 11 Uptake
   1.0,
-  # Motor 12  Climber
-  20,
+  # Motor 12  Climber 50/10 * 46/24
+  9.5833333333,
   # Motor 13 Climber
-  20,
+  9.5833333333,
   # Motor 14 Climber
-  20,
+  9.5833333333,
   # Motor 15 Climber
-  20,
+  9.5833333333,
   # Motor 16 Shooter
   1.0,
   # Motor 17 Shooter

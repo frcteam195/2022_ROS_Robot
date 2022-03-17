@@ -20,7 +20,7 @@ gear_ratio_to_output_shaft: [
   # Motor 10 Back Belt
   1.0,
   # Motor 11 Uptake
-  1.0,
+  3.0,
   # Motor 12  Climber 50/10 * 46/24
   9.5833333333,
   # Motor 13 Climber

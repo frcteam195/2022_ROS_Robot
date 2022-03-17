@@ -29,10 +29,10 @@ gear_ratio_to_output_shaft: [
   9.5833333333,
   # Motor 15 Climber
   9.5833333333,
-  # Motor 16 Shooter
-  1.0,
-  # Motor 17 Shooter
-  1.0,
+  # Motor 16 Shooter (36 / 17)
+  2.1176470588,
+  # Motor 17 Shooter Slave
+  2.1176470588,
   # Motor 18 turret yaw - 215/18
   11.9444444444,
   # Motor 19 turret hood  580/14 * 50/10

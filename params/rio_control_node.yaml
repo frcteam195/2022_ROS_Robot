@@ -35,8 +35,8 @@ gear_ratio_to_output_shaft: [
   1.0,
   # Motor 18 turret yaw - 215/18
   11.9444444444,
-  # Motor 19 turret hood  580/14
-  41.4285714286,
+  # Motor 19 turret hood  580/14 * 50/10
+  207.1428571429,
   # Motor 20 N/A
   1.0,
 ]

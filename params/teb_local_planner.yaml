@@ -40,11 +40,11 @@ free_goal_vel: False
 # Obstacles
 
 min_obstacle_dist: 0.4
-include_costmap_obstacles: True
+include_costmap_obstacles: False
 costmap_obstacles_behind_robot_dist: 1.0
 obstacle_poses_affected: 30
 costmap_converter_plugin: ""
-costmap_converter_spin_thread: True
+costmap_converter_spin_thread: False
 costmap_converter_rate: 5
 
 # Optimization
@@ -83,3 +83,10 @@ h_signature_threshold: 0.1
 obstacle_keypoint_offset: 0.1
 obstacle_heading_threshold: 0.45
 visualize_hc_graph: False
+costmap/height: 100
+costmap/width: 100
+costmap/origin_x: -50
+costmap/origin_y: -50
+costmap/resolution: 0.5
+costmap/transform_tolerance: 20.0
+transform_tolerance: 20.0

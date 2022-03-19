@@ -39,8 +39,8 @@
 
   <!--Meters/Radians XYZRPY-->
   <!--Must have one for every limelight with proper names-->
-  <node pkg="tf2_ros" type="static_transform_publisher" name="limelight_link"      args="0.254 0 0 0 -0.463 -0.524 turret_link limelight_link" respawn="true" />
-  <node pkg="tf2_ros" type="static_transform_publisher" name="limelight_unaligned" args="0.254 0 0 0 0 -0.524 turret_link limelight_unaligned" respawn="true" />
+  <node pkg="tf2_ros" type="static_transform_publisher" name="limelight_link"      args="0.254 0 0 -0.0523599 -0.463 0.0 turret_link limelight_link" respawn="true" />
+  <node pkg="tf2_ros" type="static_transform_publisher" name="limelight_unaligned" args="0.254 0 0 -0.0523599 0 0.0 turret_link limelight_unaligned" respawn="true" />
   <node name="limelight_vision_node" pkg="limelight_vision_node" type="limelight_vision_node" clear_params="true" output="screen" respawn="true">
     <!--Enter comma separated list of limelight names-->
     <rosparam param="limelight_names">[limelight]</rosparam>

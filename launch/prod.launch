@@ -34,9 +34,6 @@
   <node name="intake_node" pkg="intake_node" type="intake_node" clear_params="true" output="screen" respawn="true">
   </node>
 
-  <node name="logger_node" pkg="logger_node" type="logger_node" clear_params="true" output="screen" respawn="true">
-  </node>
-
   <node name="field_element_publisher_node" pkg="field_element_publisher_node" type="field_element_publisher_node" clear_params="true" output="screen" respawn="true">
   </node>
 

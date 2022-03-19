@@ -33,8 +33,8 @@ gear_ratio_to_output_shaft: [
   2.1176470588,
   # Motor 17 Shooter Slave
   2.1176470588,
-  # Motor 18 turret yaw - 215/18
-  11.9444444444,
+  # Motor 18 turret yaw - 215/24*3/1
+  26.875,
   # Motor 19 turret hood  580/14 * 50/10
   207.1428571429,
   # Motor 20 N/A

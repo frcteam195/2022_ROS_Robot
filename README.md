@@ -8,7 +8,7 @@ This is the main robot project. All nodes used in the robot should be defined in
 
 ### Robot Nodes
 
-[2022_light_sim_rio_control_node](https://github.com/frcteam195/2022_light_sim_rio_control_node.git)
+[light_sim_2022_rio_control_node](https://github.com/frcteam195/2022_light_sim_rio_control_node.git)
 
 [action_processor_node](https://github.com/frcteam195/action_processor_node.git)
 

@@ -8,15 +8,17 @@ This is the main robot project. All nodes used in the robot should be defined in
 
 ### Robot Nodes
 
-[light_sim_2022_rio_control_node](https://github.com/frcteam195/2022_light_sim_rio_control_node.git)
-
 [action_processor_node](https://github.com/frcteam195/action_processor_node.git)
 
 [autonomous_node](https://github.com/frcteam195/autonomous_node.git)
 
+[blank_limelight_node](https://github.com/frcteam195/blank_limelight_node.git)
+
 [blank_motor_config_node](https://github.com/frcteam195/blank_motor_config_node.git)
 
 [ck_utilities_node](https://github.com/frcteam195/ck_utilities_node.git)
+
+[climber_node](https://github.com/frcteam195/climber_node.git)
 
 [dashboard_interface_node](https://github.com/frcteam195/dashboard_interface_node.git)
 
@@ -26,13 +28,19 @@ This is the main robot project. All nodes used in the robot should be defined in
 
 [gazebo_rio_control_node](https://github.com/frcteam195/gazebo_rio_control_node.git)
 
+[hmi_agent_node](https://github.com/frcteam195/hmi_agent_node.git)
+
 [intake_node](https://github.com/frcteam195/intake_node.git)
 
 [lib_uuid_node](https://github.com/frcteam195/lib_uuid_node.git)
 
+[light_sim_2022_rio_control_node](https://github.com/frcteam195/light_sim_2022_rio_control_node.git)
+
 [limelight_vision_node](https://github.com/frcteam195/limelight_vision_node.git)
 
 [local_planner_node](https://github.com/frcteam195/local_planner_node.git)
+
+[logger_node](https://github.com/frcteam195/logger_node.git)
 
 [motor_tuning_node](https://github.com/frcteam195/motor_tuning_node.git)
 

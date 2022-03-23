@@ -36,7 +36,7 @@ velocity_maxIAccum: 0.0
 motion_cruise_velocity: 0.0
 motion_accel: 0.0
 motion_s_curve_strength: 0
-open_loop_ramp: 0.01
+open_loop_ramp: 0.15
 
 supply_current_limit: 40
 supply_current_limit_threshold: 0

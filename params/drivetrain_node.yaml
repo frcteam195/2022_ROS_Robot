@@ -42,4 +42,9 @@ supply_current_limit: 40
 supply_current_limit_threshold: 0
 supply_current_limit_threshold_exceeded_time: 0
 
+joystick_input_ramp_accel: 0.5
+joystick_input_ramp_decel: 0.2
+joystick_input_ramp_zero_val: 0
+joystick_input_ramp_max_val: 1
 
+curvature_drive: false

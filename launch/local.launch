@@ -7,7 +7,7 @@
   <node name="drivetrain_node" pkg="drivetrain_node" type="drivetrain_node" output="screen" clear_params="true">
     <rosparam command="load" file="/mnt/working/2022_ROS_Robot/params/drivetrain_node.yaml" />
   </node>
-  <node pkg="tf" type="static_transform_publisher" name="map_identity" args="0 0 0 0 0 0 odom map 100" />
+  <node pkg="tf2_ros" type="static_transform_publisher" name="map_identity" args="0 0 0 0 0 0 odom map" respawn="true" />
   
   <node name="ukf_se" pkg="robot_localization" type="ukf_localization_node" clear_params="true" output="screen">
     <rosparam command="load" file="/mnt/working/2022_ROS_Robot/params/local_robot_localization_ukf.yaml" />
@@ -43,10 +43,11 @@
   </node> -->
 
   <!--Remove this for real run-->
-  <node pkg="tf" type="static_transform_publisher" name="turret_link" args="0 0 1 0 0 1.57 base_link turret_link 10" respawn="true" />
+  <node pkg="tf2_ros" type="static_transform_publisher" name="turret_link" args="0 0 1 1.57 0 0 base_link turret_link" respawn="true" />
   <!--Meters/Radians XYZRPY-->
   <!--Must have one for every limelight with proper names-->
-  <node pkg="tf" type="static_transform_publisher" name="limelight_link" args="0.3 0.4 0.2 0 -0.4 0 turret_link limelight_link 10" respawn="true" />
+  <node pkg="tf2_ros" type="static_transform_publisher" name="limelight_link"      args="0.254 0 0 -0.0523599 -0.463 0.0 turret_link limelight_link" respawn="true" />
+  <node pkg="tf2_ros" type="static_transform_publisher" name="limelight_unaligned" args="0.254 0 0 -0.0523599 0 0.0 turret_link limelight_unaligned" respawn="true" />
   <node name="limelight_vision_node" pkg="limelight_vision_node" type="limelight_vision_node" clear_params="true" output="screen" respawn="true">
     <!--Enter comma separated list of limelight names-->
     <rosparam param="limelight_names">[limelight]</rosparam>

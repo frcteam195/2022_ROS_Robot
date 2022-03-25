@@ -24,16 +24,17 @@ robot_angular_inertia: 125  #kg m^2
 robot_angular_drag: 0.1  #N*m / (rad/sec)
 
 drive_Ks_v_intercept: 0.286695  #volts
-drive_Kv: 0.006676  #V per rpm
+# drive_Kv: 0.0139128  #V per rpm
+drive_Kv: 0.017391
 drive_Ka: 0.000934  #V per rpm/s
 
-velocity_kP: 0.0
+velocity_kP: 0.13
 velocity_kI: 0.0
-velocity_kD: 0.0
+velocity_kD: 2
 velocity_kF: 0.0
 velocity_iZone: 0.0
 velocity_maxIAccum: 0.0
-closed_loop_ramp : 0
+closed_loop_ramp : 0.01
 motion_cruise_velocity: 0.0
 motion_accel: 0.0
 motion_s_curve_strength: 0

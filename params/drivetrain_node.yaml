@@ -23,9 +23,9 @@ robot_linear_inertia: 68  #Linear inertia = Weight in kg
 robot_angular_inertia: 125  #kg m^2
 robot_angular_drag: 0.1  #N*m / (rad/sec)
 
-drive_Ks_v_intercept: 1  #volts
-drive_Kv: 0.002105  #V per rpm
-drive_Ka: 1  #V per rpm/s
+drive_Ks_v_intercept: 0.286695  #volts
+drive_Kv: 0.013352  #V per rpm
+drive_Ka: 0.000934  #V per rpm/s
 
 velocity_kP: 0.0
 velocity_kI: 0.0

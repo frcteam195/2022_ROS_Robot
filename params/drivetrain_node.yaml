@@ -33,6 +33,7 @@ velocity_kD: 0.0
 velocity_kF: 0.0
 velocity_iZone: 0.0
 velocity_maxIAccum: 0.0
+closed_loop_ramp : 0
 motion_cruise_velocity: 0.0
 motion_accel: 0.0
 motion_s_curve_strength: 0

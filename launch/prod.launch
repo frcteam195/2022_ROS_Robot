@@ -22,8 +22,10 @@
   <node name="autonomous_node" pkg="autonomous_node" type="autonomous_node" clear_params="true" output="screen" respawn="true">
   </node>
 
+<!--
   <node name="dashboard_interface_node" pkg="dashboard_interface_node" type="dashboard_interface_node" clear_params="true" output="screen" respawn="true">
   </node>
+-->
 
   <node name="turret_node" pkg="turret_node" type="turret_node" clear_params="true" output="screen" respawn="true">
   </node>

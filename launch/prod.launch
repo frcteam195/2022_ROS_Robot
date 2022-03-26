@@ -39,6 +39,10 @@
   <node name="field_element_publisher_node" pkg="field_element_publisher_node" type="field_element_publisher_node" clear_params="true" output="screen" respawn="true">
   </node>
 
+  <!-- <node pkg="tf2_ros" type="static_transform_publisher" name="temp_target_link" args="0 -2 0 0 0 0.0 red_ball_3 temp_target_link" respawn="true" />
+  <node pkg="tf2_ros" type="static_transform_publisher" name="temp_target2_link" args="-4 -1 0 0 0 0.0 temp_target_link temp_target2_link" respawn="true" /> -->
+
+
   <!--Meters/Radians XYZRPY-->
   <!--Must have one for every limelight with proper names-->
   <node pkg="tf2_ros" type="static_transform_publisher" name="limelight_link"      args="0.254 0 0 -0.0523599 -0.463 0.0 turret_link limelight_link" respawn="true" />

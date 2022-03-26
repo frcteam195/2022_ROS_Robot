@@ -6,18 +6,23 @@ publish_feedback: true
 # Trajectory
 
 teb_autosize: True
-dt_ref: 0.01
+dt_ref: 0.3
 dt_hysteresis: 0.1
 global_plan_overwrite_orientation: True
-max_global_plan_lookahead_dist: 3.0
-feasibility_check_no_poses: 5
+max_global_plan_lookahead_dist: 0.5
+via_points_ordered: true
+global_plan_viapoint_sep: 0
+# selection_viapoint_cost_scale: 4.0
+feasibility_check_no_poses: 3
+oscillation_recovery: False
+shrink_horizon_backup: False
 
 # Robot
 
-max_vel_x: 3.5
-max_vel_x_backwards: 3.5
-max_vel_theta: 4
-acc_lim_x: 4.5
+max_vel_x: 2.5
+max_vel_x_backwards: 2.5
+max_vel_theta: 2
+acc_lim_x: 1.5
 acc_lim_theta: 3.5
 min_turning_radius: 0.0
 footprint_model: # types: "point", "circular", "two_circles", "line", "polygon"
@@ -33,8 +38,8 @@ footprint_model: # types: "point", "circular", "two_circles", "line", "polygon"
 
 # GoalTolerance
 
-xy_goal_tolerance: 0.07
-yaw_goal_tolerance: 0.07
+xy_goal_tolerance: 0.0762
+yaw_goal_tolerance: 0.14
 free_goal_vel: False
 
 # Obstacles
@@ -56,12 +61,13 @@ optimization_verbose: False
 penalty_epsilon: 0.1
 weight_max_vel_x: 2
 weight_max_vel_theta: 1
-weight_acc_lim_x: 1
-weight_acc_lim_theta: 1
+weight_acc_lim_x: 200
+weight_acc_lim_theta: 100
 weight_kinematics_nh: 1000
 weight_kinematics_forward_drive: 1
 weight_kinematics_turning_radius: 1
-weight_optimaltime: 1
+weight_viapoint: 100
+weight_optimaltime: 20
 weight_obstacle: 50
 weight_dynamic_obstacle: 10 # not in use yet
 alternative_time_cost: False # not in use yet
@@ -69,9 +75,9 @@ alternative_time_cost: False # not in use yet
 # Homotopy Class Planner
 
 enable_homotopy_class_planning: True
-enable_multithreading: True
+enable_multithreading: False
 simple_exploration: False
-max_number_classes: 6
+max_number_classes: 1
 max_number_plans_in_current_class: 3
 selection_cost_hysteresis: 0.05
 selection_prefer_initial_plan: 0
@@ -90,3 +96,4 @@ costmap/origin_y: -50
 costmap/resolution: 0.5
 costmap/transform_tolerance: 20.0
 transform_tolerance: 20.0
+

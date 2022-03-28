@@ -1,16 +1,16 @@
 gear_ratio_to_output_shaft: [
-  # Motor 1 Drive 
-  7.41699219,
+  # Motor 1 Drive 50/11*44/30
+  6.6666666667,
   # Motor 2 Drive
-  7.41699219,
+  6.6666666667,
   # Motor 3 Drive
-  7.41699219,
+  6.6666666667,
   # Motor 4 Drive
-  7.41699219,
+  6.6666666667,
   # Motor 5 Drive
-  7.41699219,
+  6.6666666667,
   # Motor 6 Drive
-  7.41699219,
+  6.6666666667,
   # Motor 7 Front Roller
   1.0,
   # Motor 8 Back Roller

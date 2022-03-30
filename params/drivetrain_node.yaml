@@ -51,4 +51,10 @@ joystick_input_ramp_decel: 0.2
 joystick_input_ramp_zero_val: 0
 joystick_input_ramp_max_val: 1
 
-curvature_drive: false
+#Drive Control is an enum in Drivetrain Node
+#0: Arcade Drive
+#1: Open Loop Cheesy Drive
+#2: Open Loop Todd Curvature Drive (Not Implemented)
+#3: Velocity Arcade Drive (Not Implemented)
+#4: Velocity Curvature Drive (Not Implemented)
+drive_control_mode: 0

@@ -1,5 +1,6 @@
 #Axes
 arm_twist_axis_id: 2
+arm_twist_axis_inverted: true
 arm_axis_deadband: 0.25
 
 #Buttons

@@ -33,7 +33,7 @@ drive_Ka: 0.000934  #V per rpm/s
 velocity_kP: 0.13
 velocity_kI: 0.0
 velocity_kD: 2.0
-velocity_kF: 0.0
+velocity_kF: 0.0469
 velocity_iZone: 0.0
 velocity_maxIAccum: 0.0
 closed_loop_ramp : 0.01

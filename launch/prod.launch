@@ -15,14 +15,17 @@
   <node name="autonomous_node" pkg="autonomous_node" type="autonomous_node" clear_params="true" output="screen" respawn="true">
   </node>
 
+  <node name="quesadilla_auto_node" pkg="quesadilla_auto_node" type="quesadilla_auto_node" clear_params="true" output="screen" respawn="true">
+  </node>
+
   <node name="turret_node" pkg="turret_node" type="turret_node" clear_params="true" output="screen" respawn="true">
   </node>
 
   <node name="climber_node" pkg="climber_node" type="climber_node" clear_params="true" output="screen" respawn="true">
   </node>
 
-  <node name="intake_node" pkg="intake_node" type="intake_node" clear_params="true" output="screen" respawn="true">
-  </node>
+  <!-- <node name="intake_node" pkg="intake_node" type="intake_node" clear_params="true" output="screen" respawn="true">
+  </node> -->
 
   <node name="field_element_publisher_node" pkg="field_element_publisher_node" type="field_element_publisher_node" clear_params="true" output="screen" respawn="true">
   </node>

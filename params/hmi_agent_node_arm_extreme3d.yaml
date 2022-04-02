@@ -11,4 +11,6 @@ arm_rpm_up_button_id: 10
 arm_rpm_down_button_id: 11
 arm_intake_rollers_button_id: 0
 arm_manual_intake_button_id: 6
-arm_manual_outtake_back_button_id: 2
+arm_manual_outtake_back_pov_angle: 180
+arm_retract_intake_button_id: 1
+arm_manual_outtake_forward_pov_angle: 0

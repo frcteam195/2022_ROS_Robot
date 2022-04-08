@@ -30,6 +30,9 @@
   <node name="field_element_publisher_node" pkg="field_element_publisher_node" type="field_element_publisher_node" clear_params="true" output="screen" respawn="true">
   </node>
 
+  <node name="logger_node" pkg="logger_node" type="logger_node" clear_params="true" output="screen" respawn="true">
+  </node>
+
   <!--Meters/Radians XYZRPY-->
   <!--Must have one for every limelight with proper names-->
   <node pkg="tf2_ros" type="static_transform_publisher" name="limelight_link"      args="0.257175 0 0.130175 0 -0.575959 0.0 turret_link limelight_link" respawn="true" />

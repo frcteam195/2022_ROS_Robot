@@ -3,10 +3,15 @@ arm_twist_axis_id: 2
 arm_twist_axis_inverted: true
 arm_axis_deadband: 0.25
 
+arm_intake_rollers_trigger_id: -1
+arm_retract_intake_trigger_id: -1
+
 #POV
 arm_pov_id: 0
 arm_manual_outtake_front_pov_angle: 0
 arm_manual_outtake_back_pov_angle: 180
+arm_hood_up_pov_angle: 999
+arm_hood_down_pov_angle: 999
 
 #Buttons
 arm_intake_rollers_button_id: 4

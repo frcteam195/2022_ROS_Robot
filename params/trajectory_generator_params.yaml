@@ -1,0 +1,2 @@
+#make sure to end with a trailing slash
+trajectory_config_dir: "/robot/trajectories/"

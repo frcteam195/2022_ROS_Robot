@@ -45,6 +45,10 @@
     <rosparam param="enable_publish_position_data">true</rosparam>
   </node>
 
+  <node name="trajectory_generator_node" pkg="trajectory_generator_node" type="trajectory_generator_node" clear_params="true" output="screen" respawn="true">
+    <rosparam command="load" file="/mnt/working/2022_ROS_Robot/params/trajectory_generator_params.yaml" />
+  </node>
+
   <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen">
     <rosparam command="load" file="/mnt/working/2022_ROS_Robot/params/hmi_agent_node_drive_attack3.yaml" />
     <rosparam command="load" file="/mnt/working/2022_ROS_Robot/params/hmi_agent_node_arm_extreme3d.yaml" />

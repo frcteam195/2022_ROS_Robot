@@ -3,5 +3,5 @@ max_velocity: 150.0
 max_voltage: 9.0
 
 # Make sure to end with a trailing slash.
-trajectory_directories: "/robot/trajectories/"
+trajectory_directory: "/robot/trajectories/"
 

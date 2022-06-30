@@ -26,3 +26,4 @@ arm_hood_up_button_id: -1
 arm_hood_down_button_id: -1
 arm_rpm_up_button_id: 3
 arm_rpm_down_button_id: 1
+arm_allow_shoot_button_id: 0

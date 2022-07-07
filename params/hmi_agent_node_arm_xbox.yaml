@@ -10,6 +10,7 @@ arm_manual_outtake_front_pov_angle: 999
 arm_manual_outtake_back_pov_angle: 999
 arm_hood_up_pov_angle: 0 #DPU
 arm_hood_down_pov_angle: 180 #DPD
+arm_shoot_3ball_pov_angle: 90 #DPR
 
 
 #Buttons

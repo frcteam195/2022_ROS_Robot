@@ -26,6 +26,9 @@
     <rosparam command="load" file="/mnt/working/2022_ROS_Robot/params/network_tables_node_local.yaml" />
   </node>
 
+  <node name="logger_node" pkg="logger_node" type="logger_node" clear_params="true" output="screen" respawn="true">
+  </node>
+
 
   <!-- <node name="joy_node" pkg="joy" type="joy_node" clear_params="true" output="screen">
     <rosparam param="dev">/dev/input/js1</rosparam>

@@ -19,7 +19,6 @@ brake_mode_default: false
 gear_ratio_motor_to_output_shaft: 1
 wheel_diameter_inches: 4.0025
 robot_track_width_inches: 25.625
-robot_track_length_inches: 25.625
 robot_linear_inertia: 68  #Linear inertia = Weight in kg
 robot_angular_inertia: 125  #kg m^2
 robot_angular_drag: 0.1  #N*m / (rad/sec)

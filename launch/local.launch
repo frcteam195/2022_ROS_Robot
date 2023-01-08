@@ -63,4 +63,6 @@
     <rosparam command="load" file="/mnt/working/2022_ROS_Robot/params/hmi_agent_node_buttonbox2.yaml" />
   </node> -->
 
+  <node name="dashboard_comm_node" pkg="dashboard_comm_node" type="dashboard_comm_node" clear_params="true"></node>
+
 </launch>

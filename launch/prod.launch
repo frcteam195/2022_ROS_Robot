@@ -33,6 +33,9 @@
   <node name="logger_node" pkg="logger_node" type="logger_node" clear_params="true" output="screen" respawn="true">
   </node>
 
+  <node name="dashbard_comm_node" pkg="dashbard_comm_node" type="dashbard_comm_node" clear_params="true" output="screen" respawn="true">
+  </node>
+
   <!--Meters/Radians XYZRPY-->
   <!--Must have one for every limelight with proper names -0.575959    0.130175-->
   <node pkg="tf2_ros" type="static_transform_publisher" name="limelight_link"      args="0.257175 0 0.194 0 -0.575959 0.0 turret_link limelight_link" respawn="true" />
@@ -53,5 +56,7 @@
     <rosparam command="load" file="/mnt/working/2022_ROS_Robot/params/hmi_agent_node_buttonbox1.yaml" />
     <rosparam command="load" file="/mnt/working/2022_ROS_Robot/params/hmi_agent_node_buttonbox2.yaml" />
   </node>
+
+  <node name="dashboard_comm_node" pkg="dashboard_comm_node" type="dashboard_comm_node" clear_params="true" output="screen"/>
 
 </launch>
